@@ -43,6 +43,8 @@
 
 ## Deployed
 
+https://baileyb227.github.io/ReactPortfolio/
+
 ### Built With
 
 - Javascript
