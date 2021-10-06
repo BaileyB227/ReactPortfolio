@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.2a625590.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.04a6eecb.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.04a6eecb.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.c4e58c5e.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.c4e58c5e.js.map",
+    "static/js/2.8314ac11.chunk.js": "/ReactPortfolio/static/js/2.8314ac11.chunk.js",
+    "static/js/2.8314ac11.chunk.js.map": "/ReactPortfolio/static/js/2.8314ac11.chunk.js.map",
+    "static/js/3.6f852c67.chunk.js": "/ReactPortfolio/static/js/3.6f852c67.chunk.js",
+    "static/js/3.6f852c67.chunk.js.map": "/ReactPortfolio/static/js/3.6f852c67.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/main.2a625590.chunk.css.map": "/ReactPortfolio/static/css/main.2a625590.chunk.css.map",
+    "static/js/2.8314ac11.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.8314ac11.chunk.js.LICENSE.txt",
+    "static/media/BaileyResume.pdf": "/ReactPortfolio/static/media/BaileyResume.81199b7e.pdf",
+    "static/media/DayPlanner.png": "/ReactPortfolio/static/media/DayPlanner.48ec2a72.png",
+    "static/media/PasswordGenerator.png": "/ReactPortfolio/static/media/PasswordGenerator.69530687.png",
+    "static/media/ProfilePic.png": "/ReactPortfolio/static/media/ProfilePic.a3ec7743.png",
+    "static/media/RecipeBlog.png": "/ReactPortfolio/static/media/RecipeBlog.8eb5ce87.png",
+    "static/media/cryptoxchange.png": "/ReactPortfolio/static/media/cryptoxchange.01d64abf.png",
+    "static/media/gmaillogo.png": "/ReactPortfolio/static/media/gmaillogo.fbcf6f15.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4e58c5e.js",
+    "static/js/2.8314ac11.chunk.js",
+    "static/css/main.2a625590.chunk.css",
+    "static/js/main.04a6eecb.chunk.js"
+  ]
+}
