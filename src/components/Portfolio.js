@@ -47,7 +47,7 @@ function Portfolio() {
 			name: 'Recipe Blog',
 			description:
 				'Post about your recipe aswell as rate/leave comments on others.',
-			image: 'RecipeBlog.png ',
+			image: 'RecipeBlog.png',
 			technologies: [
 				'JavaScript',
 				'Node.js',

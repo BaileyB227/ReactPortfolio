@@ -8,7 +8,7 @@ function About() {
 			</div>
 			<div className="center">
 				<img
-					src={require('../assets/ProfilePic.png')}
+					src={require('../assets/ProfilePic.png').default}
 					alt="about-me"
 					className="photo"
 				/>
@@ -28,20 +28,8 @@ function About() {
 				</p>
 				<p>
 					I applied aspects of UX and agile development in a
-					recent project. I worked on a team of five to{' '}
-					<a
-						href="https://github.com/P3T2-Realty-Rogues/living-real"
-						target="_blank"
-					>
-						develop
-					</a>{' '}
-					a{' '}
-					<a
-						href="https://living-real.herokuapp.com/"
-						target="_blank"
-					>
-						single-page MERN app
-					</a>{' '}
+					recent project. I worked on a team of five todevelop
+					a single-page MERN app
 					that helps property owners advertise their properties,
 					manage their tenants and manage their real estate all
 					in one place. I’m excited to leverage my skills as part

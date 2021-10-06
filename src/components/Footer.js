@@ -10,7 +10,7 @@ function Footer() {
 					rel="noopener noreferrer"
 				>
 					<img
-						src={require("../assets/githublogo.png")}
+						src={require("../assets/githublogo.png").default}
 						alt="Github"
 						className="logo"
 					></img>
@@ -23,7 +23,7 @@ function Footer() {
 					rel="noopener noreferrer"
 				>
 					<img
-						src={require("../assets/linkedinlogo.png")}
+						src={require("../assets/linkedinlogo.png").default}
 						alt="LinkedIn"
 						className="logo"
 					></img>
@@ -36,7 +36,7 @@ function Footer() {
 					rel="noopener noreferrer"
 				>
 					<img
-						src={require("../assets/gmaillogo.png")}
+						src={require("../assets/gmaillogo.png").default}
 						alt="Gmail"
 						className="logo"
 					></img>
