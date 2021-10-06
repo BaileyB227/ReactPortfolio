@@ -1,92 +1,63 @@
 import React from 'react';
-import Project from '../Project';
+import Project from './Project';
 
 function Portfolio() {
 	const projects = [
 		{
-			name: 'Living Real',
+			name: 'cryptoxchange',
 			description:
-				'This is a property management system that is used by landlords viewing and managing their properties and for tenants to allow for maintenance requests and pay rent.',
-			image: 'living-real-image.png',
+				'Convert top world currencies to other top world cryptocurrencies.',
+			image: 'cryptoxchange.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
-				'Node.js',
-				'Express & NoSQL',
-				'Heroku & AWS S3',
-				'React.js',
-				'MERN Stack',
+				'Bootstrap',
+				'jQuery',
 			],
-			github: 'https://github.com/P3T2-Realty-Rogues/living-real',
-			deployed: 'https://living-real.herokuapp.com/',
-		},
-		{
-			name: 'Auto Tracker',
-			description:
-				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-			image: 'auto-tracker-image.png',
-			technologies: [
-				'HTML/CSS',
-				'JavaScript',
-				'Node.js',
-				'Handlebars.js',
-				'Express & Sequelize',
-				'Heroku & AWS S3',
-			],
-			github: 'https://github.com/OwaisIslam/auto-tracker',
-			deployed: 'https://team-3-auto-tracker.herokuapp.com/',
-		},
-		{
-			name: 'Flash Beats',
-			description:
-				'A clean and accurate way to search for your favorite songs while also displaying the lyrics.',
-			image: 'flash-beats-image.gif',
-			technologies: ['HTML/CSS', 'JavaScript', 'jQuery'],
-			github: 'https://github.com/OwaisIslam/flash-beats',
-			deployed: 'https://teamflash1.github.io/music-app/',
-		},
-		{
-			name: 'Budget Tracker',
-			description:
-				'Budget Tracker is an Application that uses a noSQL database and offline persistance for a great user experience for managing their finances and budgeting no matter where they are.',
-			image: 'budget-tracker-image.png',
-			technologies: [
-				'JavaScript',
-				'MongoDB',
-				'IndexedDB & Service Workers',
-				'Node.js',
-				'Express',
-			],
-			github: 'https://github.com/OwaisIslam/budget-tracker',
-			deployed: 'https://budget-tracker-owais.herokuapp.com/',
-		},
-		{
-			name: 'Weather Dashboard',
-			description:
-				'A weather dashboard that shows current weather and five-day weather forecast for any city.',
-			image: 'weather-dashboard-image.png',
-			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/weather-dashboard',
-			deployed: 'https://owaisislam.github.io/weather-dashboard/',
+			github: 'https://github.com/BaileyB227/cryptoXchange',
+			deployed: 'https://baileyb227.github.io/cryptoXchange/',
 		},
 		{
 			name: 'Password Generator',
 			description:
-				'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
-			image: 'password-generator-image.png',
-			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/password-generator',
-			deployed: 'https://owaisislam.github.io/password-generator/',
+				'Generate a password based on parameters given by the user.',
+			image: 'PasswordGenerator.png',
+			technologies: [
+				'HTML/CSS',
+				'JavaScript',
+				'Bootstrap'
+			],
+			github: 'https://github.com/BaileyB227/PasswordGenerator',
+			deployed: 'https://baileyb227.github.io/PasswordGenerator/',
 		},
 		{
-			name: 'Note Taker',
+			name: 'Day Planner',
 			description:
-				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
-			image: 'note-taker-image.png',
-			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
-			github: 'https://github.com/OwaisIslam/note-taker',
-			deployed: 'https://note-taker-owais.herokuapp.com/',
+				'Plan out your day with this day planner that takes account what time it is.',
+			image: 'DayPlanner.png',
+			technologies: [
+				'HTML/CSS',
+				'JavaScript',
+				'Bootstrap',
+			],
+			github: 'https://github.com/BaileyB227/DayPlanner',
+			deployed: 'https://github.com/BaileyB227/DayPlanner',
 		},
+		{
+			name: 'Recipe Blog',
+			description:
+				'Post about your recipe aswell as rate/leave comments on others.',
+			image: 'RecipeBlog.png ',
+			technologies: [
+				'JavaScript',
+				'Node.js',
+				'Express',
+				'Bootstrap',
+				'MVC'
+			],
+			github: 'https://github.com/hoofmonger/RecipeBlog',
+			deployed: 'https://gentle-hamlet-82940.herokuapp.com/',
+		}
 	];
 
 	return (
@@ -109,14 +80,6 @@ function Portfolio() {
 					</li>
 					<li className="padding">
 						<Project projects={projects[3]}></Project>
-					</li>
-				</ul>
-				<ul className="flex-row mobile-row">
-					<li className="padding">
-						<Project projects={projects[4]}></Project>
-					</li>
-					<li className="padding">
-						<Project projects={projects[5]}></Project>
 					</li>
 				</ul>
 			</div>
