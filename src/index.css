@@ -5,13 +5,12 @@ main {
 }
 
 :root {
-  --primary: #499167;
-  --secondary: #2e282a;
-  --tertiary: #f0f2a6;
+  --primary: #26a5b6;
+  --secondary: #2a0c46;
   --quaternary: #39a9db;
   --quinary: #bfd7ea;
   --light: #bfd7ea;
-  --dark: #353831;
+  --dark: #221135;
   --darker: #39a9db;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -38,7 +37,7 @@ body {
   background: var(--dark);
   color: var(--light);
   /* font-family: 'Poiret One', cursive; */
-  font-family: "Courier New", Courier, monospace;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1,
@@ -83,7 +82,7 @@ p {
 }
 
 a {
-  color: red;
+  color: var(--primary);
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -341,12 +340,12 @@ textarea {
 
 .card-title {
   font-size: 1.5rem;
-  color: var(--quaternary);
+  color: var(--primary);
 }
 
 .card-subtitle {
   font-size: 1rem;
-  color: var(--tertiary);
+  color: var(--primary);
 }
 
 .card-text {
