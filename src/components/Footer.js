@@ -31,8 +31,7 @@ function Footer() {
 			</div>
 			<div>
 				<a
-					href="https://mail.google.com/"
-					target="_blank"
+					href = "mailto: baileyb227@gmail.com"
 					rel="noopener noreferrer"
 				>
 					<img
